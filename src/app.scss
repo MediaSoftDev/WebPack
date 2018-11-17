@@ -1,0 +1,37 @@
+$blue-light: #A1B9D7;
+$red-light: #FF0D1D; 
+$white-light: #F6F6F8;
+$black-dark: #313131;
+$font-default: 'Ubuntu',sans-serif;
+$font-normal: 20px;
+$font-medium: 28px;
+$font-bold: 600;
+
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:100,300,400,600,700);
+
+body {
+    //background: $red-light;
+    background-image: url(./img/coding_code_red-512.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-weight: $font-bold;
+    font-size: $font-normal;
+    font-family: $font-default;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    p {
+        color: $black-dark;
+        font-size: $font-medium;
+    }
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
